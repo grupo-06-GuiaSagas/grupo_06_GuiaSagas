@@ -15,7 +15,7 @@
 <br>
 
 ## Descripción del proyecto
-***
+
 
 ### Nuestro proyecto "Guía para ver sagas" fue pensado como un sitio web para acceder a información sobre diversas sagas cinematográficas. El objetivo principal del sitio es orientar a los usuarios que no hayan visto alguna de las sagas propuestas y deseen conocer datos sobre ellas, como por ejemplo el número de películas que las componen, la cronología, el orden de visualización, la sinopsis, los actores, los directores, etc. 
 ### El objetivo secundario del sitio es proporcionar esta misma información a cualquier otro usuario que desee visitarlo.
@@ -25,7 +25,6 @@
 <br>
 
 ## Paleta de colores
-***
 
 ### La paleta de colores que elegimos para nuestro sitio web es:
 * ## <img src="340C30.png" width="40" heigth="40"> #340C30
@@ -38,7 +37,7 @@
 <br>
 
 ## Tipografías
-***
+
 ### Las tipografías elegidas son:
 * ### Lato
 * ### Roboto
@@ -49,7 +48,7 @@
 <br>
 
 ## Participantes
-***
+
 ### Formamos parte de este proyecto:
 * ### Paula de los Hoyos
 * ### Micael Maldonado Oriz
