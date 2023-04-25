@@ -1,0 +1,32 @@
+/* paleta de colores: 340C30, 461843, 582455, A94CA4, EAD7E7 
+https://www.youtube.com/watch?v=OuoLQiXPitk&ab_channel=deivchoi*/
+
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EAD7E7;
+}
+
+body{
+    background-color: #461843;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#340C30 ;
+    height: 80px;
+    margin: 0px;
+    padding-right: 30px;
+    
+    
+}
+
+.logo1{
+    display:flex;
+    height: 50px;
+    padding: 10px 0px 10px 50px;
+    
+
+}
