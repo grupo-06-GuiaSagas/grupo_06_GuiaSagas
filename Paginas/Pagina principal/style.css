@@ -1,0 +1,54 @@
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EAD7E7;
+}
+
+body{
+    background-color: #461843;
+}
+
+.contenedor-padre-head{
+    background-color: #23001f;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px ;
+    }
+
+.contenedor-logo{
+    height: 70px;
+    width: 130px;
+    font-size: 2rem;
+    display:flex;
+    align-self: center; 
+    justify-content: left; 
+    }
+
+.contenedor-buscador{
+    height: 70px;
+    width: 300px;
+    font-size: 2rem;
+    display:flex;
+    align-self: center;  
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.contenedor-registro{
+    height: 70px;
+    width: 500px;
+    font-size: 2rem;
+    display:flex;
+    align-content: center;
+    justify-content: right;
+    margin-top: 40px;
+}
+
+.contenedor-padre-carrousel{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
