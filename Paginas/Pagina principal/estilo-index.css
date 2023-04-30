@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.galeria{
+    width:80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.contenedor{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100% 100% 100% 100%;
+    animation-name: mover;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.imagen1{
+    position: relative;
+    background-image: url(../../imagenes/harry\ potter.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagen2{
+    position: relative;
+    background-image: url(../../imagenes/jhon\ wick.jpeg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center; 
+}
+
+.imagen3{
+    position: relative;
+    background-image: url(../../imagenes/la\ era\ del\ hielo.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center; 
+}
+
+.imagen4{
+    position: relative;
+    background-image: url(../../imagenes/star\ wars.jpeg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center; 
+}
+
+.fondo-contenedor{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    opacity: 0.7;
+}
+
+h2{
+    position: relative;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40%;
+    font-size: 3em;
+    color: #EAD7E7;
+    text-align: left;
+}
+
+@keyframes mover {
+    15%{
+        margin-left: 0%;
+    }
+    18%{
+        margin-left: -100%;
+    }
+    44%{
+        margin-left: -100%;
+    }
+    48%{
+        margin-left: -200%;
+    }
+    74%{
+        margin-left: -200%;
+    }
+    78%{
+        margin-left: -300%;
+    }
+    94%{
+        margin-left: -300%;
+    }
+    98%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+
+}
