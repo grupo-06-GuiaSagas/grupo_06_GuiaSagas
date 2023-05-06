@@ -1,0 +1,80 @@
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EAD7E7;
+}
+#logotipo{
+    height: 10%;
+    width: 10%;
+    color: #461843;
+  }
+
+  .contenedor {
+	width: 90%;
+	margin: auto;
+}
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+header nav a.activo {
+	color: #FFF;
+}
+
+body {
+    background-color: #461843;
+    margin: 0px;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+input , textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;   
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%; 
+}
+
+#boton-enviar{
+    background-color: #A94CA4;
+    color:#EAD7E7;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+#boton-enviar:hover{
+    cursor:pointer;
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
